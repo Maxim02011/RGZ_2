@@ -13,5 +13,17 @@ int main()
 	return(0);
 }
 
-
+bool checkmp3(string filename)
+{
+    int filetype = filename.length() - 4;
+    string filetipe = filename.substr(filetype, 4);
+    if (filetipe == ".mp3")
+    {
+        return true;
+    }
+    else
+    {
+        return false;
+    }
+}
 
