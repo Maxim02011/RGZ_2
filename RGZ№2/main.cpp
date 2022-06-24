@@ -3,6 +3,7 @@
 #include <fstream>
 #include <string>
 #include "struct.h"
+#include "reading.h"
 
 using namespace std;
 bool checkmp3(string filename);
